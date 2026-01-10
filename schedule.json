@@ -1,0 +1,242 @@
+{
+  "source": "https://aimakersummit.com/schedule/schedule.html",
+  "tracks": [
+    "唐朝厅 A",
+    "唐朝厅 B",
+    "唐朝厅 C"
+  ],
+  "items": [
+    {
+      "time": "09:00 - 09:45",
+      "tracks": [
+        {
+          "title": "我是怎么规划自己职业的？",
+          "speaker": {
+            "name": "乔新亮",
+            "role": "彩食鲜终生荣誉 CTO"
+          },
+          "speaker_page": "../speakers/qiaoxinliang.html"
+        },
+        {
+          "title": "线性注意力技术演进与各算法对比",
+          "speaker": {
+            "name": "唐飞虎",
+            "role": "月之暗面高级研发工程师"
+          },
+          "speaker_page": "../speakers/tangfeihu.html"
+        },
+        {
+          "title": "基于会话的上下文管理和检索",
+          "speaker": {
+            "name": "马达",
+            "role": "NVIDIA Principal SW. Eng."
+          },
+          "speaker_page": "../speakers/mada.html"
+        }
+      ]
+    },
+    {
+      "time": "10:00 - 10:45",
+      "tracks": [
+        {
+          "title": "AI 时代内容创作竞争力的核心",
+          "speaker": {
+            "name": "卡兹克",
+            "role": "虚实传媒 CEO"
+          },
+          "speaker_page": "../speakers/kazike.html"
+        },
+        {
+          "title": "从 0 到 1 大模型后训练实操分享",
+          "speaker": {
+            "name": "郑耀威",
+            "role": "北京航空航天大学博士"
+          },
+          "speaker_page": "../speakers/zhengyaowei.html"
+        },
+        {
+          "title": "从个人上下文到主动式 AI ：面向上下文工程的产品化思考",
+          "speaker": {
+            "name": "黄柏特",
+            "role": "字节跳动 AI 产品经理"
+          },
+          "speaker_page": "../speakers/huangbaite.html"
+        }
+      ]
+    },
+    {
+      "time": "11:00 - 11:45",
+      "tracks": [
+        {
+          "title": "AI 时代个体如何保值增值？",
+          "speaker": {
+            "name": "李瀚霖",
+            "role": "AI 创业公司运营负责人"
+          },
+          "speaker_page": "../speakers/lihanlin.html"
+        },
+        {
+          "title": "高效大模型技术创新与应用观察",
+          "speaker": {
+            "name": "井晨哲",
+            "role": "面壁智能首席科学家助理、开源负责人"
+          },
+          "speaker_page": "../speakers/jingchenzhe.html"
+        },
+        {
+          "title": "语境驱动的记忆：四层架构与情感陪伴的落地思路",
+          "speaker": {
+            "name": "安开森",
+            "role": "MemU 首席后端架构师"
+          },
+          "speaker_page": "../speakers/ankaisen.html"
+        }
+      ]
+    },
+    {
+      "time": "13:30 - 14:15",
+      "tracks": [
+        {
+          "title": "AI 重塑产研：从项目提效，团队提效到研发组织进化的实战之路",
+          "speaker": {
+            "name": "侯容",
+            "role": "知乎社区生态 B 端产研负责人"
+          },
+          "speaker_page": "../speakers/hourong.html"
+        },
+        {
+          "title": "投资人眼中的 2025，AI 产业趋势与创新版图",
+          "speaker": {
+            "name": "陈石",
+            "role": "峰瑞资本投资合伙人"
+          },
+          "speaker_page": "../speakers/chenshi.html"
+        },
+        {
+          "title": "解构 AX（Agent Experience）：从 UX 到 AX 创新交互流程探索",
+          "speaker": {
+            "name": "黄东敏",
+            "role": "零一万物 B&G 端设计专家"
+          },
+          "speaker_page": "../speakers/huangdongmin.html"
+        }
+      ]
+    },
+    {
+      "time": "14:30 - 15:15",
+      "tracks": [
+        {
+          "title": "L3 AI 协同开发探索之路：困境、路径与实践",
+          "speaker": {
+            "name": "华剑侃",
+            "role": "快手 CodeFlicker 产品负责人"
+          },
+          "speaker_page": "../speakers/huajiankan.html"
+        },
+        {
+          "title": "从身边的业务开始嵌入 AI",
+          "speaker": {
+            "name": "尹伟铭",
+            "role": "AI Agent 开发工程师"
+          },
+          "speaker_page": "../speakers/yinweiming.html"
+        },
+        {
+          "title": "从标准化到个性化，AI 可否释放长尾用户需求？",
+          "speaker": {
+            "name": "刘佳奇",
+            "role": "滴滴出行 AI 应用负责人"
+          },
+          "speaker_page": "../speakers/liujiaqi.html"
+        }
+      ]
+    },
+    {
+      "time": "15:30 - 16:15",
+      "tracks": [
+        {
+          "title": "从大厂程序员到 AI 陪伴赛道创业者的心路复盘",
+          "speaker": {
+            "name": "蒋宏伟",
+            "role": "愈愈心理创始人"
+          },
+          "speaker_page": "../speakers/jianghongwei.html"
+        },
+        {
+          "title": "从独立开发到独立创造，关于独立开发者的探索与思考",
+          "speaker": {
+            "name": "李炳峰",
+            "role": "AI 独立开发者"
+          },
+          "speaker_page": "../speakers/libingfeng.html"
+        },
+        {
+          "title": "从推理到创造：新一代国产模型如何成为开发者的生产力引擎？",
+          "speaker": {
+            "name": "李子玄",
+            "role": "智谱 AI Z.ai 负责人"
+          },
+          "speaker_page": "../speakers/lizixuan.html"
+        }
+      ]
+    },
+    {
+      "time": "16:30 - 17:15",
+      "tracks": [
+        {
+          "title": "Quest：基于 Spec 驱动的 AI Coding 新范式",
+          "speaker": {
+            "name": "徐亮亮",
+            "role": "阿里巴巴 Qoder 技术专家"
+          },
+          "speaker_page": "../speakers/xuliangliang.html"
+        },
+        {
+          "title": "AIGC 影视制作的进阶之路",
+          "speaker": {
+            "name": "陆海倩",
+            "role": "异类 Outliers AIGC 创作者 / 监制"
+          },
+          "speaker_page": "../speakers/luhaiqian.html"
+        },
+        {
+          "title": "开放世界中的多智能体协作：从封闭任务到生态智能",
+          "speaker": {
+            "name": "廖思聪",
+            "role": "OpenAgents AI 工程师"
+          },
+          "speaker_page": "../speakers/liaosicong.html"
+        }
+      ]
+    },
+    {
+      "time": "17:30 - 18:15",
+      "tracks": [
+        {
+          "title": "从 AI 助力到 Agent 协同：微博 Wegent 的 Vibe Coding 实践",
+          "speaker": {
+            "name": "刘亚飞",
+            "role": "微博平台架构技术专家"
+          },
+          "speaker_page": "../speakers/liuyafei.html"
+        },
+        {
+          "title": "AI 如何赋能影视与广告制作？",
+          "speaker": {
+            "name": "丁一",
+            "role": "广告片 / 纪录片导演"
+          },
+          "speaker_page": "../speakers/dingyi.html"
+        },
+        {
+          "title": "Agent，我们在做什么？",
+          "speaker": {
+            "name": "贾伟",
+            "role": "前智谱 AI 战略生态总监"
+          },
+          "speaker_page": "../speakers/jiawei.html"
+        }
+      ]
+    }
+  ]
+}
