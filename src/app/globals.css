@@ -60,6 +60,15 @@ main::before {
   align-items: center;
 }
 
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
 .hero-card {
   background: var(--card);
   border-radius: 28px;
@@ -80,6 +89,14 @@ main::before {
   line-height: 1.7;
   color: var(--muted);
   margin: 0 0 20px;
+}
+
+.track-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 10px 4px 0;
+  align-items: center;
 }
 
 .hero-tags {
@@ -236,6 +253,38 @@ main::before {
   font-size: 0.9rem;
   color: var(--muted);
   text-align: center;
+}
+
+.nav-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 0;
+}
+
+.nav-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(31, 27, 22, 0.15);
+  background: #fff7ee;
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nav-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(31, 27, 22, 0.12);
+}
+
+.nav-button.primary {
+  background: var(--accent);
+  color: #fff7ee;
+  border-color: transparent;
 }
 
 @media (max-width: 1100px) {

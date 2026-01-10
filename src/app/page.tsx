@@ -8,9 +8,9 @@ export default function HomePage() {
             <p className="hero-text">
               欢迎来到大会主页。你可以从这里进入日程安排页面查看详细会场议程。
             </p>
-            <div className="hero-tags">
-              <a className="tag" href="/schedule">
-                查看 Schedule
+            <div className="nav-actions">
+              <a className="nav-button primary" href="/schedule">
+                进入日程页面
               </a>
             </div>
           </div>

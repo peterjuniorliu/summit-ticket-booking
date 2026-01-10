@@ -13,18 +13,18 @@ export default function SchedulePage() {
       <div className="page-content">
         <section className="hero">
           <div className="hero-card">
-            <h1 className="hero-title">AI Maker Summit · Schedule</h1>
+            <div className="hero-header">
+              <h1 className="hero-title">AI Maker Summit · Schedule</h1>
+              <div className="nav-actions">
+                <a className="nav-button primary" href="/">
+                  返回首页
+                </a>
+              </div>
+            </div>
             <p className="hero-text">
               一天三大会场，连续八段主题分享，从大模型研发到应用落地，再到内容与
               创业思考。挑选你最关注的赛道，把灵感带回去。
             </p>
-            <div className="hero-tags">
-              {trackNames.map((track) => (
-                <span key={track} className="tag">
-                  {track}
-                </span>
-              ))}
-            </div>
           </div>
           <div className="stats">
             <div className="stat-card">
@@ -44,6 +44,14 @@ export default function SchedulePage() {
               <div className="stat-label">开场时间</div>
             </div>
           </div>
+        </section>
+
+        <section className="track-strip">
+          {trackNames.map((track) => (
+            <span key={track} className="tag">
+              {track}
+            </span>
+          ))}
         </section>
 
         <section className="schedule-board">
