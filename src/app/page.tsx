@@ -24,6 +24,14 @@ export default function HomePage() {
           北京海淀区北京朗丽兹西山花园酒店
         </p>          
       </div>
+      <div className="venue">
+        <p className="venue-address">
+          <span className="venue-label">
+            「参会时间」
+          </span>
+          2025年12月14日的上午09:00
+        </p>
+      </div>
     </main>
   );
 }
