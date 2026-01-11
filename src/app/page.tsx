@@ -16,6 +16,14 @@ export default function HomePage() {
           </div>
         </section>
       </div>
+      <div className="venue">
+        <p className="venue-address">
+          <span className="venue-label">
+            「参会地址」
+          </span>
+          北京海淀区北京朗丽兹西山花园酒店
+        </p>          
+      </div>
     </main>
   );
 }
