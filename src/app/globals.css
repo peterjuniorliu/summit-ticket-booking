@@ -107,7 +107,7 @@ main::before {
 .venue-address {
   margin: 0;
   width: 60%;
-  text-align: center;
+  text-align: left;
   font-size: clamp(1.2rem, 2.2vw, 1.9rem);
   line-height: 1.6;
   color: var(--ink);
