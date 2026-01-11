@@ -120,14 +120,6 @@ main::before {
   color: var(--teal);
 }
 
-.track-strip {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  padding: 10px 4px 0;
-  align-items: center;
-}
-
 .hero-tags {
   display: flex;
   flex-wrap: wrap;

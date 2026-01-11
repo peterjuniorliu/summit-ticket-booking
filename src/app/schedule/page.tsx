@@ -46,14 +46,6 @@ export default function SchedulePage() {
           </div>
         </section>
 
-        <section className="track-strip">
-          {trackNames.map((track) => (
-            <span key={track} className="tag">
-              {track}
-            </span>
-          ))}
-        </section>
-
         <section className="schedule-board">
           <div className="board-header">
             <span className="time-cell">Time</span>
@@ -66,6 +58,7 @@ export default function SchedulePage() {
               <div className="time-pill">{slot.time}</div>
               {trackNames.map((trackName, index) => {
                 const session = slot.tracks[index];
+
                 if (!session) {
                   return (
                     <div className="session-card" key={`${slot.time}-${trackName}`}>
@@ -74,7 +67,9 @@ export default function SchedulePage() {
                     </div>
                   );
                 }
+
                 const speakerUrl = new URL(session.speaker_page, data.source).toString();
+                
                 return (
                   <article className="session-card" key={`${slot.time}-${trackName}`}>
                     <div className="session-track">{trackName}</div>
